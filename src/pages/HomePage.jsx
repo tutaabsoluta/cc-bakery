@@ -1,6 +1,10 @@
+import { Navbar } from "../components"
 
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <>
+      <Navbar />
+      <h1>CC-Bakery</h1>
+    </>
   )
 }

@@ -4,7 +4,7 @@ import { AboutPage, CategoryPage, ContactUsPage, HomePage } from "../pages"
 
 
 export const AppRouter = () => {
-  return (
+  return ( 
     <Routes>
       <Route path="/" element={ <HomePage /> }></Route>
       <Route path="categories" element={ <CategoryPage /> } ></Route>

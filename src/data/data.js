@@ -43,4 +43,28 @@ export const desserts = [
   },
 ];
 
+export const quotes = [
+  {
+    id: 1,
+    name: 'Ivan Mathews',
+    profilePic: 'Ellipse1.png',
+    review: '"I indulged in the most scrumptious chocolate cupcake from Crust & Crumbs , and it was love at first bite!"',
+    socials: 'Socials.png',
+  },
+  {
+    id: 2,
+    name: 'Ishmael Dunlop',
+    profilePic: 'Ellipse2.png',
+    review: '"The croissant I bought from Crust & Crumbs was flaky, buttery, and utterly divine - a perfect breakfast treat!"',
+    socials: 'Socials.png'
+  },
+  {
+    id: 3,
+    name: 'Rosemary Hernandez',
+    profilePic: 'Ellipse3.png',
+    review: '"The custom birthday cake you made for my daughters party was a huge hit - moist, flavorful, and visually stunning!"',
+    socials: 'Socials.png',
+  },
+]
+
 

@@ -53,17 +53,17 @@ export const quotes = [
   },
   {
     id: 2,
-    name: 'Ishmael Dunlop',
+    name: 'Rosemary Hernandez',
     profilePic: 'Ellipse2.png',
-    review: '"The croissant I bought from Crust & Crumbs was flaky, buttery, and utterly divine - a perfect breakfast treat!"',
-    socials: 'Socials.png'
+    review: '"The custom birthday cake you made for my daughters party was a huge hit - moist, flavorful, and visually stunning!"',
+    socials: 'Socials.png',
   },
   {
     id: 3,
-    name: 'Rosemary Hernandez',
+    name: 'Ishmael Dunlop',
     profilePic: 'Ellipse3.png',
-    review: '"The custom birthday cake you made for my daughters party was a huge hit - moist, flavorful, and visually stunning!"',
-    socials: 'Socials.png',
+    review: '"The croissant I bought from Crust & Crumbs was flaky, buttery, and utterly divine - a perfect breakfast treat!"',
+    socials: 'Socials.png'
   },
 ]
 

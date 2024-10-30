@@ -1,4 +1,4 @@
-import { ProductsCard, Header, Navbar, Hero, Quotes } from "../components"
+import { ProductsCard, Header, Navbar, Hero, Quotes, SpecialOrders, Footer } from "../components"
 
 export const HomePage = () => {
   return (
@@ -8,6 +8,8 @@ export const HomePage = () => {
       <ProductsCard />
       <Hero />
       <Quotes />
+      <SpecialOrders />
+      <Footer />
     </>
   )
 }

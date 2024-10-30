@@ -14,7 +14,7 @@ export default {
         primary_light: '#7A4D4F',
         secondary: '#F2C674',
         white_secondary: '#FEECEB',
-        terciary: '#F9BF4E'
+        terciary: '#F9BF4E',
       },
     },
   },

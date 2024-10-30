@@ -1,10 +1,21 @@
 export const Quotes = () => {
   return (
-    <section className="bg-terciary container h-[781px] mx-auto flex items-center relative justify-center">
+    <section className="bg-gradient-to-r from-orange-200 to-terciary container h-[781px] mx-auto flex items-center relative justify-center mt-12">
       <img
         src="Quotes.png"
         alt="Quote Image"
-        className="absolute top-0 mt-[-10px] w-[570px]"
+        className="absolute top-0 mt-[-10px] w-[570px] z-10"
+      />
+
+      <img 
+        src="Rectangle1.png" 
+        alt="Container Image" 
+        className="absolute left-0 top-0 opacity-30 z-0"
+      />
+      <img 
+        src="Rectangle2.png" 
+        alt="Container Image" 
+        className="absolute left-0 top-0 opacity-30 z-0"
       />
 
       <div className="bg-white w-[1400px] h-[585px] mx-auto rounded-lg shadow-lg z-10 flex items-center justify-center">
@@ -51,6 +62,7 @@ export const Quotes = () => {
             </div>
           </div>
 
+          {/* Third Quote */}
           <div className="row-span-4 w-[505px] h-[188px] flex justify-center items-center">
             <div className="flex justify-center gap-8">
               <div>

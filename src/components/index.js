@@ -1,10 +1,12 @@
 
 
-export * from './Navbar';
-export * from './Header';
 export * from './Button';
-export * from './SliderCard';
+export * from './Footer';
+export * from './Header';
+export * from './Hero';
+export * from './Navbar';
 export * from './Products';
 export * from './ProductsCard';
-export * from './Hero';
 export * from './Quotes';
+export * from './SliderCard';
+export * from './SpecialOrders';

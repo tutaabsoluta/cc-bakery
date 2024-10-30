@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <section>
+    <section className="mt-16">
       <div className="container mx-auto flex flex-col items-center">
         {/* Hero 1 */}
         <div className="flex relative">

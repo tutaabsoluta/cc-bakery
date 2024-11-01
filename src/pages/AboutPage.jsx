@@ -11,7 +11,7 @@ export const AboutPage = () => {
       </p>
 
       <div className="lg:flex justify-between items-center gap-8 2xl:justify-center">
-        <div className="lg:w-2/5 2xl:w-1/5">
+        <div className="lg:w-2/5 2xl:w-2/5">
           <p>
             Welcome to Crust & Crumbs, where passion for baking meets the art of
             deliciousness! Founded in 2024, our bakery was born from a love for
@@ -36,7 +36,7 @@ export const AboutPage = () => {
           </p>
         </div>
         <div>
-          <img src="bakery.jpg" alt="Bakery Shop" className="mt-12 lg:mt-0" />
+          <img src="bakery.jpg" alt="Bakery Shop" className="mt-12 lg:mt-0 rounded-2xl shadow-xl" />
         </div>
       </div>
     </div>

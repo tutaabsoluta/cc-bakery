@@ -1,27 +1,16 @@
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
-import { Link } from "react-router-dom"
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 
 export const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-orange-200 to-secondary container mx-auto h-[360px] mt-28">
+    <footer className="bg-gradient-to-b from-orange-200 to-secondary container mx-auto py-8 mt-16">
 
-      {/* Navigation */}
-       <div className="flex justify-center gap-12 text-primary mb-24 pt-4">
-          <Link className="hover:text-primary_light duration-300" to="/">Home</Link>
-          <Link className="hover:text-primary_light duration-300" to="categories">Categories</Link>
-          <Link className="hover:text-primary_light duration-300" to="about">About Us</Link>
-          <Link className="hover:text-primary_light duration-300" to="contact">Contact Us</Link>
-          <Link className="hover:text-primary_light duration-300" to="contact">Help</Link>
-          <Link className="hover:text-primary_light duration-300" to="contact">Privacy</Link>
-        </div>
 
-        {/* Copy and Socials */}
-        <div className="border-t-2 border-primary"></div>
-        <div className="flex items-center justify-between px-16 mt-12">
+        {/* Copyright and Socials */}
+        <div className="md:flex items-center justify-between px-16">
           <div>
-            <p className="text-xl">© 2024 Crust & Crumbs. All rights reserved.</p>
+            <p className="text-xl text-center md:text-left">© 2024 Crust & Crumbs. All rights reserved.</p>
           </div>
-          <div className="flex gap-5">
+          <div className="flex justify-center gap-5 mt-8 md:mt-0">
             <FaFacebook className="w-[30px] h-[30px]" />
             <FaTwitter className="w-[30px] h-[30px]" />
             <FaLinkedin className="w-[30px] h-[30px]" />

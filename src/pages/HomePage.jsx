@@ -1,15 +1,13 @@
-import { ProductsCard, Header, Navbar, Hero, Quotes, SpecialOrders, Footer } from "../components"
+import { ProductsCard, Header, Hero, Quotes, SpecialOrders, Products } from "../components"
 
 export const HomePage = () => {
   return (
     <>
-      <Navbar />
       <Header />
-      <ProductsCard />
+      <Products />
       <Hero />
       <Quotes />
       <SpecialOrders />
-      <Footer />
     </>
   )
 }

@@ -1,6 +1,11 @@
+import { Footer, Navbar } from "../components"
 
-export const AppLayout = () => {
+export const AppLayout = ({ children }) => {
   return (
-    <div>AppLayout</div>
+    <div>
+      <Navbar />
+      <main>{ children }</main>
+      <Footer />
+    </div>
   )
 }

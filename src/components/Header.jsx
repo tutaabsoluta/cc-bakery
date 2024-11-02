@@ -13,7 +13,7 @@ export const Header = () => {
         </p>
 
         {/* Buttons */}
-        <div className="hidd flex justify-center items-center gap-4">
+        <div className="hidden md:flex justify-center items-center gap-4">
           <Button>{"Order Now"}</Button>
           <button className="bg-white_secondary text-primary px-6 py-3 rounded-lg hover:bg-primary_light duration-300 hover:text-white_secondary border border-primary">
             See all menus
@@ -25,7 +25,7 @@ export const Header = () => {
       <div className="md:w-3/5 md:relative">
         <img
           className="2xl:md:w-[865px] 2xl:h-[591px] object-cover"
-          src="cake.png"
+          src="CakeHeader.webp"
           alt="Chocolate Cake"
         />
 

@@ -10,7 +10,7 @@ export const CategoryPage = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-          <img className="rounded-t-lg h-48 w-full object-cover" src="Bread.jpg" alt="Bread" />
+          <img className="rounded-t-lg h-48 w-full object-cover" src="Bread.webp" alt="Bread" />
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">1. Breads</h5>
             <p className="mb-3 font-normal text-gray-700">
@@ -20,7 +20,7 @@ export const CategoryPage = () => {
         </div>
 
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-          <img className="rounded-t-lg h-48 w-full object-cover" src="Pastrie.jpg" alt="Pastries" />
+          <img className="rounded-t-lg h-48 w-full object-cover" src="Pastrie.webp" alt="Pastries" />
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">2. Pastries</h5>
             <p className="mb-3 font-normal text-gray-700">
@@ -60,7 +60,7 @@ export const CategoryPage = () => {
         </div>
 
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-          <img className="rounded-t-lg h-48 w-full object-cover" src="Seasonal.jpg" alt="Seasonal Items" />
+          <img className="rounded-t-lg h-48 w-full object-cover" src="Seasonal.webp" alt="Seasonal Items" />
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">6. Seasonal Items</h5>
             <p className="mb-3 font-normal text-gray-700">

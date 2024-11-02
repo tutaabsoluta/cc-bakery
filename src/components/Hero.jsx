@@ -5,7 +5,7 @@ export const Hero = () => {
         {/* Hero 1 */}
         <div className="lg:flex lg:relative">
           <img
-            src="ChiefImage.png"
+            src="ChiefImage.webp"
             className="lg:w-[640px] lg:h-[436px] lg:mr-24 z-10"
             alt="Chief Hero"
           />
@@ -22,11 +22,11 @@ export const Hero = () => {
 
             <button className="mx-auto md:mx-0 mt-12 text-[14.65px] text-primary flex justify-center items-center gap-3 md:mt-8">
               Read More
-              <img src="Arrow.png" alt="" />
+              <img src="Arrow.webp" alt="" />
             </button>
           </div>
           <div className="absolute right-0 top-0 mr-[-20px] mt-[-180px] hidden lg:block">
-            <img src="ChiefHero.png" alt="ChiefHero Image" />
+            <img src="ChiefHero.webp" alt="ChiefHero Image" />
           </div>
         </div>
 
@@ -47,18 +47,18 @@ export const Hero = () => {
 
             <button className="mb-12 lg:mb-0 mx-auto md:mx-0 text-[14.65px] text-primary flex justify-center items-center gap-3 mt-8">
               Read More
-              <img src="Arrow.png" alt="" />
+              <img src="Arrow.webp" alt="" />
             </button>
           </div>
           <img
-            src="DeliveryImage.png"
+            src="DeliveryImage.webp"
             className="lg:w-[640px] lg:h-[436px] z-10"
             alt="Chief Hero"
           />
 
           <div>
             <img
-              src="DeliveryHero.png"
+              src="DeliveryHero.webp"
               alt=""
               className="absolute left-0 top-0 mr-[-20px] mt-[-140px] hidden lg:block"
             />

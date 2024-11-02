@@ -13,7 +13,7 @@ export const SpecialOrders = () => {
       <div className="md:flex items-center justify-center gap-24">
         <div className="flex items-center justify-center">
           <div>
-            <img src="Phone.png" alt="Phone Icon" className="h-[85px]" />
+            <img src="Phone.webp" alt="Phone Icon" className="h-[85px]" />
           </div>
           <div>
             <p className="text-xl">+91 0000000000</p>
@@ -22,7 +22,7 @@ export const SpecialOrders = () => {
 
         <div className="flex items-center justify-center gap-4">
           <div>
-            <img src="Mail.png" alt="Mail Icon" className="h-[48px] w-[48px]" />
+            <img src="Mail.webp" alt="Mail Icon" className="h-[48px] w-[48px]" />
           </div>
           <div>
             <p className="text-xl">crustncrumbs@bakery.co</p>
@@ -44,12 +44,12 @@ export const SpecialOrders = () => {
         </div>
 
         {[
-          "Collection1.png",
-          "Collection2.png",
-          "Collection3.png",
-          "Collection4.png",
-          "Collection5.png",
-          "Collection6.png",
+          "Collection1.webp",
+          "Collection2.webp",
+          "Collection3.webp",
+          "Collection4.webp",
+          "Collection5.webp",
+          "Collection6.webp",
         ].map((element, index) => (
           <img
             key={index} 

@@ -36,7 +36,7 @@ export const AboutPage = () => {
           </p>
         </div>
         <div>
-          <img src="bakery.jpg" alt="Bakery Shop" className="mt-12 lg:mt-0 rounded-2xl shadow-xl" />
+          <img src="bakery.webp" alt="Bakery Shop" className="mt-12 lg:mt-0 rounded-2xl shadow-xl" />
         </div>
       </div>
     </div>

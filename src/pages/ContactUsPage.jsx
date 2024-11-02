@@ -15,7 +15,7 @@ export const ContactUsPage = () => {
         Contact Us!
       </h1>
 
-      <p className="text-xl text-primary text-center mb-4">
+      <p className="text-xl text-primary text-center mb-4 px-8">
         Want to know more about us? Send us a message!
       </p>
 
